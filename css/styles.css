@@ -1,0 +1,55 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+
+body {
+  font-family:  Lora, Palatino, "Big Caslon", serif;
+  background-color: #CBCDB9;
+  margin: 0;
+}
+
+.map {
+  max-width: 500px;
+  margin: auto;
+}
+
+.map_container {
+  margin: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  border: 5px solid #000;
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 1rem 0;
+  max-width: 1280px;
+}
+
+#mapid {
+  height: 400px;
+  width: 100%;
+  margin-top: 3em;
+  border: 1px solid #999;
+}
+
+#map2id {
+    height: 400px;
+    width: 100%;
+    margin-top: 3em;
+    border: 1px solid #999;
+}
+
+@media screen and (max-width: 450px) {
+.map_container {
+  margin: 0;
+}
+
+p {
+  margin: .5rem;
+}
+}
